@@ -5,16 +5,13 @@ Registration is a process of determining the spatial transformation that maps po
 ## Dataset
 
 Task on hand is to register T2-Weighted MRI volume to a T1-Weighted MRI volumes of the same subject acquired as a part of Female data set of Visible Human Project. 
-
+A slice of  T1-weighted 3D MRI image stack and T2-weighted 3D MRI image stack respectively.
 ![A slice of  T1-weighted 3D MRI image stack and T2-weighted 3D MRI image stack respectively.](Images/2.png)
 
-A slice of  T1-weighted 3D MRI image stack and T2-weighted 3D MRI image stack respectively.
-
-Before image registration, translation in y direction is significant.
-
+Before image registration, translation in y direction is significant. T1-weighted and T2-weighted MRI before image registration (4x4 grid on left, 2x2 grid on right).
 ![T1-weighted and T2-weighted MRI before image registration (4x4 grid on left, 2x2 grid on right.](Images/c1.png)
 
-T1-weighted and T2-weighted MRI before image registration (4x4 grid on left, 2x2 grid on right.
+
 
 T1-weighted MRI chosen as fixed image and T2 weighted MRI was chosen as moving image.
 
@@ -61,17 +58,13 @@ Following functions are utilized for each component of registration framework.
 
 ## Results
 
-After image registration, both images overlap nicely. 😊
-
+After image registration, both images overlap nicely. 😊 T1-weighted and T2-weighted MRI after image registration shown below (4x4 grid on left, 2x2 grid on right).
 ![T1-weighted and T2-weighted MRI after image registration (4x4 grid on left, 2x2 grid on right.](Images/c2.png)
 
-T1-weighted and T2-weighted MRI after image registration (4x4 grid on left, 2x2 grid on right.
-
 Difference filter was applied between fixed image & moving image (difference before registration) and between registered image & fixed image (difference after registration).
-
 ![Difference images (subtraction filter) before and after registration. ](Images/8.png)
 
-Difference images (subtraction filter) before and after registration. 
+
 
 **Visualization with Slicer**
 
@@ -91,11 +84,10 @@ Moving image vs registered image
 
 ![Image 3.png](Images/Image_3.png)
 
-Total Optimization map
-
+Optimization values at each level (Left to Right - level 0, level 1 and level2)
 ![Optimization values at each level (Left to Right - level 0, level 1 and level2)](Images/15.png)
 
-Optimization values at each level (Left to Right - level 0, level 1 and level2)
+
 
 ## Additional Qualitative Results
 
