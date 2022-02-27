@@ -73,6 +73,7 @@ movingInitialTransform = TransformType.New()
 initialParameters = movingInitialTransform.GetParameters()
 initialParameters[0] = 0  # identity matrix is set as initial transofrmation for both fixed an moving image
 initialParameters[1] = 0
+initialParameters[2] = 0
 movingInitialTransform.SetParameters(initialParameters)
 registration.SetMovingInitialTransform(movingInitialTransform)
 
