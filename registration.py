@@ -1,4 +1,3 @@
-
 import sys
 import itk
 import matplotlib.pyplot as plt
