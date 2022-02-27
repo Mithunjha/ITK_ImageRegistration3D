@@ -22,11 +22,11 @@ T1-weighted MRI chosen as fixed image and T2 weighted MRI was chosen as moving i
 
 Google Colaboratory notebook : 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][https://colab.research.google.com/github/Mithunjha/ITK_ImageRegistration3D/blob/main/Registration.ipynb](https://colab.research.google.com/github/Mithunjha/ITK_ImageRegistration3D/blob/main/Registration.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mithunjha/ITK_ImageRegistration3D/blob/main/Registration.ipynb)
 
 Demo on how to use the registration.py : 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)][https://colab.research.google.com/github/Mithunjha/ITK_ImageRegistration3D/blob/main/Registration.ipynb](https://colab.research.google.com/github/Mithunjha/ITK_ImageRegistration3D/blob/main/Registration.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mithunjha/ITK_ImageRegistration3D/blob/main/Registration.ipynb)
 
 ### Installation
 
