@@ -8,7 +8,6 @@ if len(sys.argv) != 4:
     sys.exit(1)
 
 fixedImageFile = sys.argv[1]
-print(fixedImageFile)
 movingImageFile = sys.argv[2]
 outputImageFile = sys.argv[3] + "/registered.vtk"
 differenceImageAfterFile = sys.argv[3] + "/difference_after.vtk" 
