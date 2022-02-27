@@ -6,6 +6,7 @@ Registration is a process of determining the spatial transformation that maps po
 
 Task on hand is to register T2-Weighted MRI volume to a T1-Weighted MRI volumes of the same subject acquired as a part of Female data set of Visible Human Project. 
 A slice of  T1-weighted 3D MRI image stack and T2-weighted 3D MRI image stack respectively.
+
 ![A slice of  T1-weighted 3D MRI image stack and T2-weighted 3D MRI image stack respectively.](Images/2.png)
 
 Before image registration, translation in y direction is significant. T1-weighted and T2-weighted MRI before image registration (4x4 grid on left, 2x2 grid on right).
